@@ -1,7 +1,4 @@
-import jwt from 'jsonwebtoken';
-import crypto from 'crypto';
-import axios from 'axios';
-import { Circuits, Races } from '../../models';
+import {Circuits} from '../../models';
 import { successResponse, errorResponse } from '../../helpers';
 
 
@@ -16,6 +13,15 @@ export const allCircuits = async (req, res) => {
       limit,
     });
     return successResponse(req, res, { circuits });
+  } catch (error) {
+    return errorResponse(req, res, error.message);
+  }
+};
+
+export const oneCircuit = async (req, res) => {
+  try {
+    const circuit = await Circuits.findOne({ where: { id: req.params.id } });
+    return successResponse(req, res, { circuit });
   } catch (error) {
     return errorResponse(req, res, error.message);
   }
