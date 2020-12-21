@@ -17,7 +17,7 @@ module.exports = {
       date_of_birth: {
         type: Sequelize.DATE
       },
-      emmail: {
+      email: {
         type: Sequelize.STRING
       },
       booking_id: {

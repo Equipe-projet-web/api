@@ -1,10 +1,10 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   const RaceRounds = sequelize.define('RaceRounds', {
-    name: DataTypes.STRING,
-    race_id: DataTypes.INTEGER,
-    start_date: DataTypes.DATE,
-    end_date: DataTypes.DATE,
+    name: {type: DataTypes.STRING, allowNull: false},
+    race_id: {type: DataTypes.INTEGER, allowNull: false},
+    start_date: {type: DataTypes.DATE, allowNull: false},
+    end_date: {type: DataTypes.DATE, allowNull: false},
     description: DataTypes.TEXT
   }, {});
   RaceRounds.associate = function(models) {

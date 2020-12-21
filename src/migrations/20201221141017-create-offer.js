@@ -14,7 +14,7 @@ module.exports = {
       booking_open_at: {
         type: Sequelize.DATE
       },
-      prince: {
+      price: {
         type: Sequelize.FLOAT
       },
       ticket_prefix: {

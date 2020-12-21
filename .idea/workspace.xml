@@ -3,8 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="77bfedaa-1695-4527-a717-625972de49c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/migrations/20190510094758-create-user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/migrations/20190510094758-create-user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/migrations/20201221141017-create-offer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/migrations/20201221141017-create-offer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/migrations/20201221141245-create-booking-people.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/migrations/20201221141245-create-booking-people.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/booking.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/bookingpeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/bookingpeople.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/circuits.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/circuits.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/offer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/offer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/offerbookingpeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/offerbookingpeople.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/offerraceround.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/offerraceround.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/racerounds.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/racerounds.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/races.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/races.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="boilerplate" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608552314419</updated>
-      <workItem from="1608552315483" duration="2723000" />
+      <workItem from="1608552315483" duration="3202000" />
     </task>
     <task id="LOCAL-00001" summary="Add express Js boilerplate with Sequelize">
       <created>1608552563252</created>
@@ -63,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608553517035</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add generic models &amp; migrations">
+      <created>1608560183930</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608560183930</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,21 +87,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add express Js boilerplate with Sequelize" />
     <MESSAGE value="Add Sequelize-cli and db config &amp; fix boilerplate bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Sequelize-cli and db config &amp; fix boilerplate bugs" />
+    <MESSAGE value="Add generix models &amp; migrations" />
+    <MESSAGE value="Add generic models &amp; migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add generic models &amp; migrations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608552932632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608552932632" />
-    <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1608553516614">
+    <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1608560183521">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608553516614" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1608553518168">
+    <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608560183521" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1608560185368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608553518168" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608560185368" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608552667442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
