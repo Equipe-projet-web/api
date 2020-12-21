@@ -18,9 +18,6 @@ module.exports = (sequelize, DataTypes) => {
       password: {
         type: DataTypes.STRING,
       },
-      profilePic: {
-        type: DataTypes.STRING,
-      },
       isAdmin: {
         type: DataTypes.BOOLEAN,
         defaultValue: false,

@@ -20,9 +20,6 @@ module.exports = {
     password: {
       type: Sequelize.STRING,
     },
-    profilePic: {
-      type: Sequelize.STRING,
-    },
     isAdmin: {
       type: Sequelize.BOOLEAN,
       defaultValue: false,
