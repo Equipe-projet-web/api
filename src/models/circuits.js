@@ -7,8 +7,8 @@ module.exports = (sequelize, DataTypes) => {
     length: {type : DataTypes.FLOAT, allowNull: false},
     description:  DataTypes.TEXT
   }, {});
-  Circuits.associate = function(models) {
-    Circuits.hasOne(models.race);
+  Circuits.associate = (models) => {
+
   };
   return Circuits;
 };

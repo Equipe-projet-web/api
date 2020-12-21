@@ -45,7 +45,8 @@ db.Sequelize = Sequelize;
 //= ==============================
 // Define all relationships here below
 //= ==============================
-// db.User.hasMany(db.Address);
-// db.Address.belongsTo(db.User);
+//
+db.Circuits.hasMany(db.Races, {foreignKey: 'circuit_id'});
+
 
 module.exports = db;

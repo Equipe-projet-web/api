@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77bfedaa-1695-4527-a717-625972de49c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controllers/circuits/circuit.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/circuits/circuit.controller.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/circuits/circuit.validator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/migrations/20201221140545-create-circuits.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/migrations/20201221140545-create-circuits.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/circuits/circuit.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/circuits/circuit.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/circuits.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/circuits.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/races.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/races.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/admin.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608560657562</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add relationship">
+      <created>1608568262447</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608568262447</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,17 +99,18 @@
     <MESSAGE value="Add generix models &amp; migrations" />
     <MESSAGE value="Add generic models &amp; migrations" />
     <MESSAGE value="Add constraints" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add constraints" />
+    <MESSAGE value="Add relationship" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add relationship" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608552932632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608552932632" />
-    <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1608560657174">
+    <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1608568262031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608560657174" />
+    <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608568262031" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608563012081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -114,10 +119,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1608564598286" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1608560658668">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1608568371667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608560658668" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608568371667" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608552667442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

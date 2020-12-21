@@ -10,7 +10,7 @@ export const allCircuits = async (req, res) => {
     const page = req.params.page || 1;
     const limit = 2;
     const circuits = await Circuits.findAndCountAll({
-      include: 'Race',
+      include: 'Races',
       order: [['name', 'ASC']],
       offset: (page - 1) * limit,
       limit,
