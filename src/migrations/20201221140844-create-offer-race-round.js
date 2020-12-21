@@ -8,10 +8,10 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      offer_id: {
+      offerId: {
         type: Sequelize.INTEGER
       },
-      race_round_id: {
+      raceRoundId: {
         type: Sequelize.INTEGER
       },
       createdAt: {

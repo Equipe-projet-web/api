@@ -8,7 +8,7 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      offer_id: {
+      offerId: {
         type: Sequelize.INTEGER
       },
       book_at: {
