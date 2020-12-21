@@ -17,6 +17,9 @@ module.exports = {
       length: {
         type: Sequelize.FLOAT
       },
+      laps: {
+          type: Sequelize.INTEGER
+      },
       description: {
         type: Sequelize.TEXT
       },

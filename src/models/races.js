@@ -1,4 +1,5 @@
-'use strict';
+
+
 module.exports = (sequelize, DataTypes) => {
   const Races = sequelize.define('Races', {
     name: {type: DataTypes.STRING, allowNull: false},
@@ -8,7 +9,7 @@ module.exports = (sequelize, DataTypes) => {
     description: DataTypes.TEXT
   }, {});
   Races.associate = function(models) {
-    // associations can be defined here
+    Races.hasOne(models.circuits);
   };
   return Races;
 };
