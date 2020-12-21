@@ -3,16 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="77bfedaa-1695-4527-a717-625972de49c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/migrations/20201221141017-create-offer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/migrations/20201221141017-create-offer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/migrations/20201221141245-create-booking-people.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/migrations/20201221141245-create-booking-people.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/booking.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/bookingpeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/bookingpeople.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/circuits.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/circuits.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/offer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/offer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/offerbookingpeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/offerbookingpeople.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/offerraceround.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/offerraceround.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/racerounds.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/racerounds.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/races.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/races.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/themeforest-6eCgGzNT-air-ui-multi-concept-admin-template/airui-admin-template-angular" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -55,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608552314419</updated>
-      <workItem from="1608552315483" duration="3202000" />
+      <workItem from="1608552315483" duration="5675000" />
     </task>
     <task id="LOCAL-00001" summary="Add express Js boilerplate with Sequelize">
       <created>1608552563252</created>
@@ -78,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608560183930</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add constraints">
+      <created>1608560657562</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608560657562</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,21 +89,26 @@
     <MESSAGE value="Add Sequelize-cli and db config &amp; fix boilerplate bugs" />
     <MESSAGE value="Add generix models &amp; migrations" />
     <MESSAGE value="Add generic models &amp; migrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add generic models &amp; migrations" />
+    <MESSAGE value="Add constraints" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add constraints" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608552932632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608552932632" />
-    <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1608560183521">
+    <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1608560657174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608560183521" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1608560185368">
+    <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608560657174" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608563012081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608560185368" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608563012081" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1608560658668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608560658668" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608552667442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
