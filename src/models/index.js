@@ -47,6 +47,6 @@ db.Sequelize = Sequelize;
 //= ==============================
 //
 db.Circuits.hasMany(db.Races, {foreignKey: 'circuit_id'});
-
+db.Races.hasOne(db.Circuits, { foreignKey: 'id', sourceKey: 'circuit_id'})
 
 module.exports = db;
