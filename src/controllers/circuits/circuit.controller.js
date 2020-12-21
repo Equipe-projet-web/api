@@ -20,7 +20,7 @@ export const allCircuits = async (req, res) => {
 
 export const oneCircuit = async (req, res) => {
   try {
-    const circuit = await Circuits.findOne({ where: { id: req.params.id } });
+    const circuit = await Circuits.findOne({ where: { id: req.params.id }, include: 'Races' });
     return successResponse(req, res, { circuit });
   } catch (error) {
     return errorResponse(req, res, error.message);
