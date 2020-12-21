@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77bfedaa-1695-4527-a717-625972de49c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/sequelize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/sequelize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/migrations/20190510094758-create-user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/migrations/20190510094758-create-user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608552314419</updated>
-      <workItem from="1608552315483" duration="1166000" />
+      <workItem from="1608552315483" duration="2723000" />
     </task>
     <task id="LOCAL-00001" summary="Add express Js boilerplate with Sequelize">
       <created>1608552563252</created>
@@ -56,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608552563252</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Sequelize-cli and db config &amp; fix boilerplate bugs">
+      <created>1608553517035</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608553517035</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,21 +71,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add express Js boilerplate with Sequelize" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add express Js boilerplate with Sequelize" />
+    <MESSAGE value="Add Sequelize-cli and db config &amp; fix boilerplate bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Sequelize-cli and db config &amp; fix boilerplate bugs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608552932632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608552932632" />
-    <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1608552562846">
+    <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1608553516614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608552562846" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1608552564868">
+    <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608553516614" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1608553518168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608552564868" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608553518168" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608552667442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
