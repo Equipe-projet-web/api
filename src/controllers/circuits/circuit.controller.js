@@ -7,7 +7,7 @@ export const allCircuits = async (req, res) => {
     const page = req.params.page || 1;
     const limit = 2;
     const circuits = await Circuit.findAndCountAll({
-      include: 'Race',
+      include: 'Races',
       order: [['name', 'ASC']],
       offset: (page - 1) * limit,
       limit,
@@ -20,7 +20,7 @@ export const allCircuits = async (req, res) => {
 
 export const oneCircuit = async (req, res) => {
   try {
-    const circuit = await Circuit.findOne({ where: { id: req.params.id }, include: 'Race' });
+    const circuit = await Circuit.findOne({ where: { id: req.params.id }, include: 'Races' });
     return successResponse(req, res, { circuit });
   } catch (error) {
     return errorResponse(req, res, error.message);
