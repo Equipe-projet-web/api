@@ -1,4 +1,8 @@
 'use strict';
+
+const Offer = require('../models/race');
+
+
 module.exports = (sequelize, DataTypes) => {
   const Offer = sequelize.define('Offer', {
     name: {type : DataTypes.STRING, allowNull: false},
