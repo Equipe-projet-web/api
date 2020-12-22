@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77bfedaa-1695-4527-a717-625972de49c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/controllers/races/races.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/races/races.validator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/circuits/circuit.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/circuits/circuit.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/offers/offer.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/offers/offer.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/circuits/circuit.validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/circuits/circuit.validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/offers/offer.validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/offers/offer.validator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seeders/20201221153259-demo-circuits.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/seeders/20201221153259-demo-circuits.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seeders/20201221154220-demo-races.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/seeders/20201221154220-demo-races.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
