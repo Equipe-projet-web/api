@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77bfedaa-1695-4527-a717-625972de49c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/controllers/offers/circuit.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/offers/circuit.validator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/migrations/20201221140709-create-races.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/migrations/20201221140709-create-races.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/migrations/20201221140738-create-race-rounds.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/migrations/20201221140738-create-race-rounds.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/migrations/20201221140844-create-offer-race-round.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/migrations/20201221140844-create-offer-race-round.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/migrations/20201221141017-create-offer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/migrations/20201221141017-create-offer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/migrations/20201221141125-create-offer-booking-people.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/migrations/20201221141125-create-offer-booking-people.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/migrations/20201221141245-create-booking-people.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/migrations/20201221141245-create-booking-people.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/migrations/20201221141339-create-booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/migrations/20201221141339-create-booking.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/booking.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/bookingpeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/bookingpeople.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/offer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/offer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/offerbookingpeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/offerbookingpeople.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/offerraceround.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/offerraceround.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/racerounds.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/racerounds.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/races.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/races.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seeders/20201221154220-demo-races.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/seeders/20201221154220-demo-races.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +28,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/controllers/circuits" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/controllers" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\api\src\controllers" />
       <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\api\src\controllers\circuits" />
       <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\api" />
     </key>
@@ -127,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608579310763</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update keys">
+      <created>1608580062881</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608580062881</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,17 +137,18 @@
     <MESSAGE value="Add laal relationship" />
     <MESSAGE value="Add relationship" />
     <MESSAGE value="Add circuit end point" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add circuit end point" />
+    <MESSAGE value="Update keys" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update keys" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608552932632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608552932632" />
-    <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1608579309897">
+    <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1608580061746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608579309897" />
+    <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608580061746" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1608578454548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -165,10 +161,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1608564598286" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1608579312010">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1608580064229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608579312010" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608580064229" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608552667442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
