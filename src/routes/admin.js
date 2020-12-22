@@ -7,7 +7,7 @@ const router = express.Router();
 //= ===============================
 // Admin routes
 //= ===============================
-router.get('/allUsers', userController.allUsers);
+router.get('/users', userController.allUsers);
 
 router.get('/circuits', allCircuits);
 router.get('/circuits/:id', oneCircuit);
