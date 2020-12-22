@@ -1,4 +1,4 @@
-import {Circuits} from '../../models';
+import {Circuit} from '../../models';
 import { successResponse, errorResponse } from '../../helpers';
 
 
@@ -6,8 +6,8 @@ export const allCircuits = async (req, res) => {
   try {
     const page = req.params.page || 1;
     const limit = 2;
-    const circuits = await Circuits.findAndCountAll({
-      include: 'Races',
+    const circuits = await Circuit.findAndCountAll({
+      include: 'Race',
       order: [['name', 'ASC']],
       offset: (page - 1) * limit,
       limit,
@@ -20,7 +20,7 @@ export const allCircuits = async (req, res) => {
 
 export const oneCircuit = async (req, res) => {
   try {
-    const circuit = await Circuits.findOne({ where: { id: req.params.id }, include: 'Races' });
+    const circuit = await Circuit.findOne({ where: { id: req.params.id }, include: 'Race' });
     return successResponse(req, res, { circuit });
   } catch (error) {
     return errorResponse(req, res, error.message);

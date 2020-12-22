@@ -46,7 +46,10 @@ db.Sequelize = Sequelize;
 // Define all relationships here below
 //= ==============================
 //
-db.Circuits.hasMany(db.Races, {foreignKey: 'circuitId'});
-db.Races.hasOne(db.Circuits, { foreignKey: 'id', sourceKey: 'circuitId'})
+
+
+db.Circuit.hasMany(db.Race, {foreignKey: 'circuitId', as: 'Race'});
+db.Race.hasOne(db.Circuit, { foreignKey: 'id', sourceKey: 'circuitId', as: 'Circuit'})
+db.Offer.belongsToMany(db.RaceRound, { through: db.OfferRaceRound, as: 'Races'});
 
 module.exports = db;

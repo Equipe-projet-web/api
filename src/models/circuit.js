@@ -1,14 +1,14 @@
 
 module.exports = (sequelize, DataTypes) => {
-  const Circuits = sequelize.define('Circuits', {
+  const Circuit = sequelize.define('Circuit', {
     name: {type : DataTypes.STRING, allowNull: false, unique: true },
     color: {type : DataTypes.STRING, allowNull: false},
     laps: {type : DataTypes.INTEGER, allowNull: true},
     length: {type : DataTypes.FLOAT, allowNull: false},
     description:  DataTypes.TEXT
   }, {});
-  Circuits.associate = (models) => {
+  Circuit.associate = (models) => {
 
   };
-  return Circuits;
+  return Circuit;
 };

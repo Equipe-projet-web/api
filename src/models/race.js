@@ -1,22 +1,23 @@
-const Circuits = require('../models/circuits');
+const Circuit = require('../models/circuit');
 
 module.exports = (sequelize, DataTypes) => {
-  const Races = sequelize.define('Races', {
+  const Race = sequelize.define('Race', {
     name: {type: DataTypes.STRING, allowNull: false},
     circuitId: {
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
-        model: Circuits,
+        model: Circuit,
         key: "circuitId"
-      }},
+      }
+    },
 
     startDate: {type: DataTypes.DATE, allowNull: false},
     endDate: {type: DataTypes.DATE, allowNull: false},
     description: DataTypes.TEXT
   }, {});
-  Races.associate = function(models) {
+  Race.associate = function(models) {
 
   };
-  return Races;
+  return Race;
 };
