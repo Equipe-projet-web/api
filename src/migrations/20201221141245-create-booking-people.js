@@ -8,19 +8,19 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      first_name: {
+      firstName: {
         type: Sequelize.STRING
       },
-      last_name: {
+      lastName: {
         type: Sequelize.STRING
       },
-      date_of_birth: {
+      dateOfBirth: {
         type: Sequelize.DATE
       },
       email: {
         type: Sequelize.STRING
       },
-      booking_id: {
+      bookingId: {
         type: Sequelize.INTEGER
       },
       createdAt: {

@@ -2,9 +2,9 @@
 module.exports = (sequelize, DataTypes) => {
   const RaceRounds = sequelize.define('RaceRounds', {
     name: {type: DataTypes.STRING, allowNull: false},
-    race_id: {type: DataTypes.INTEGER, allowNull: false},
-    start_date: {type: DataTypes.DATE, allowNull: false},
-    end_date: {type: DataTypes.DATE, allowNull: false},
+    raceId: {type: DataTypes.INTEGER, allowNull: false},
+    startDate: {type: DataTypes.DATE, allowNull: false},
+    endDate: {type: DataTypes.DATE, allowNull: false},
     description: DataTypes.TEXT
   }, {});
   RaceRounds.associate = function(models) {

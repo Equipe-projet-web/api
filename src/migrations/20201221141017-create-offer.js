@@ -17,10 +17,10 @@ module.exports = {
       price: {
         type: Sequelize.FLOAT
       },
-      ticket_prefix: {
+      ticketPrefix: {
         type: Sequelize.STRING
       },
-      open_book_website: {
+      openBookWebsite: {
         type: Sequelize.BOOLEAN
       },
       createdAt: {
