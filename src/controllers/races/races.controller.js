@@ -4,15 +4,11 @@ import { successResponse, errorResponse } from '../../helpers';
 
 export const allRaces = async (req, res) => {
   try {
-    const page = req.params.page || 1;
-    const limit = 2;
     const races = await Race.findAndCountAll({
       include: [
         'RaceRounds', 'Circuit'
       ],
       order: [['name', 'ASC']],
-      offset: (page - 1) * limit,
-      limit,
     });
     return successResponse(req, res, { races });
   } catch (error) {
