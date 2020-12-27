@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77bfedaa-1695-4527-a717-625972de49c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controllers/races/races.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/races/races.validator.js" afterDir="false" />
+    <list default="true" id="77bfedaa-1695-4527-a717-625972de49c4" name="Default Changelist" comment="Update races controllers &amp; routes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/circuits/circuit.validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/circuits/circuit.validator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/offers/offer.validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/offers/offer.validator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/circuits/circuit.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/circuits/circuit.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/offers/offer.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/offers/offer.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/user/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/user/user.controller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -55,6 +51,12 @@
       <option name="presentableId" value="Default" />
       <updated>1608552314419</updated>
       <workItem from="1608552315483" duration="5675000" />
+      <workItem from="1608644182855" duration="180000" />
+      <workItem from="1608646350591" duration="597000" />
+      <workItem from="1608650758830" duration="2000" />
+      <workItem from="1608650862288" duration="10000" />
+      <workItem from="1608667821940" duration="3657000" />
+      <workItem from="1608724826514" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="Add express Js boilerplate with Sequelize">
       <created>1608552563252</created>
@@ -169,10 +171,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update models &amp; add basic routes for offers" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608552932632">
+    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608667839647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608552932632" />
+    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608667839647" />
     <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1608635223146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -181,10 +183,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608632873926" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608563012081">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608642473100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608563012081" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608642473100" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1608564598286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -197,14 +199,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608552667442" />
-    <state x="667" y="253" width="585" height="592" key="find.popup" timestamp="1608635145439">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="534" y="0" width="549" height="824" key="find.popup" timestamp="1608642827507">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="534" y="0" width="549" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1608642827507" />
     <state x="667" y="253" width="585" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608635145439" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1608632705517">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1608668653086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608632705517" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608668653086" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608565404434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
