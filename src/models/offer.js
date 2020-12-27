@@ -9,7 +9,8 @@ module.exports = (sequelize, DataTypes) => {
     booking_open_at: {type : DataTypes.DATE, allowNull: false},
     price: {type : DataTypes.FLOAT, allowNull: false},
     ticketPrefix: {type : DataTypes.STRING, allowNull: false},
-    openBookWebsite: {type : DataTypes.BOOLEAN, allowNull: false, defaultValue: false }
+    openBookWebsite: {type : DataTypes.BOOLEAN, allowNull: false, defaultValue: false},
+    category: {type : DataTypes.STRING, allowNull: true}
   }, {});
   Offer.associate = function(models) {
     // associations can be defined here

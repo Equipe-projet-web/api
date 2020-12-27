@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77bfedaa-1695-4527-a717-625972de49c4" name="Default Changelist" comment="Update races controllers &amp; routes">
+    <list default="true" id="77bfedaa-1695-4527-a717-625972de49c4" name="Default Changelist" comment="Minor change &amp; test git bug">
+      <change afterPath="$PROJECT_DIR$/src/seeders/20201271154220-demo-races-rounds.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/circuits/circuit.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/circuits/circuit.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/offers/offer.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/offers/offer.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/user/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/user/user.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/migrations/20201221140738-create-race-rounds.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/migrations/20201221140738-create-race-rounds.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/raceround.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/raceround.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -21,6 +30,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lxwzkLNdzUkmhmDbdaNPWpvmhY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,17 +38,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/seeders" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="C:\Users\Eliott BAYLOT\Documents\formula-1\Projet\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\api\src\controllers" />
-      <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\api\src\controllers\circuits" />
+      <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\api\src\seeders" />
+      <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\Projet\src\app\race-item" />
+      <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\api\assets\races" />
       <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\api" />
+      <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\api\src\controllers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\api\assets\races\4" />
       <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\api" />
     </key>
   </component>
@@ -51,12 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1608552314419</updated>
       <workItem from="1608552315483" duration="5675000" />
-      <workItem from="1608644182855" duration="180000" />
-      <workItem from="1608646350591" duration="597000" />
-      <workItem from="1608650758830" duration="2000" />
-      <workItem from="1608650862288" duration="10000" />
-      <workItem from="1608667821940" duration="3657000" />
-      <workItem from="1608724826514" duration="599000" />
+      <workItem from="1609095149985" duration="57000" />
+      <workItem from="1609095241275" duration="10010000" />
     </task>
     <task id="LOCAL-00001" summary="Add express Js boilerplate with Sequelize">
       <created>1608552563252</created>
@@ -149,7 +159,35 @@
       <option name="project" value="LOCAL" />
       <updated>1608635223563</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update logic">
+      <created>1609097573851</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609097573851</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Update logic with params">
+      <created>1609098327535</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609098327535</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Minor change &amp; test git bug">
+      <created>1609098436974</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609098436974</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fix bug with dates">
+      <created>1609107912550</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609107912550</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,46 +206,53 @@
     <MESSAGE value="Minor changes" />
     <MESSAGE value="Update routes &amp; readme" />
     <MESSAGE value="Update models &amp; add basic routes for offers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update models &amp; add basic routes for offers" />
+    <MESSAGE value="Update logic" />
+    <MESSAGE value="Update logic with params" />
+    <MESSAGE value="Minor change &amp; test git bug" />
+    <MESSAGE value="Fix bug with dates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix bug with dates" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608667839647">
+    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608552932632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608667839647" />
-    <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1608635223146">
+    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608552932632" />
+    <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1609107911441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608635223146" />
-    <state x="184" y="86" key="DiffContextDialog" timestamp="1608632873926">
+    <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609107911441" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1609098419709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608632873926" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608642473100">
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609098419709" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608563012081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608642473100" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608563012081" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1608564598286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1608564598286" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1608635226888">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1609107914323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608635226888" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609107914323" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608552667442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608552667442" />
-    <state x="534" y="0" width="549" height="824" key="find.popup" timestamp="1608642827507">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="534" y="0" width="549" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1608642827507" />
-    <state x="667" y="253" width="585" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608635145439" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1608668653086">
+    <state x="667" y="253" width="585" height="592" key="find.popup" timestamp="1609099849688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608668653086" />
+    <state x="667" y="253" width="585" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609099849688" />
+    <state x="626" y="391" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1609099083262">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="626" y="391" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609099083262" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1609096613875">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609096613875" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608565404434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

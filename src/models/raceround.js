@@ -12,8 +12,7 @@ module.exports = (sequelize, DataTypes) => {
         key: "raceId"
       }
     },
-    startDate: {type: DataTypes.DATE, allowNull: false},
-    endDate: {type: DataTypes.DATE, allowNull: false},
+    day: {type: DataTypes.DATE, allowNull: false},
     description: DataTypes.TEXT
   }, {});
   RaceRound.associate = function(models) {

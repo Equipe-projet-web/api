@@ -23,6 +23,10 @@ module.exports = {
       openBookWebsite: {
         type: Sequelize.BOOLEAN
       },
+      category : {
+        type: Sequelize.STRING,
+        allowNull: true
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

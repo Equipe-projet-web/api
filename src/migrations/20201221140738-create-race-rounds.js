@@ -14,10 +14,7 @@ module.exports = {
       raceId: {
         type: Sequelize.INTEGER
       },
-      startDate: {
-        type: Sequelize.DATE
-      },
-      endDate: {
+      day: {
         type: Sequelize.DATE
       },
       description: {
