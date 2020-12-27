@@ -6,6 +6,7 @@ import * as userValidator from '../controllers/user/user.validator';
 import {allCircuits, oneCircuit} from "../controllers/circuits/circuit.controller";
 import {allOffers, offersByRace, offersByRaceRound, oneOffer} from "../controllers/offers/offer.controller";
 import {allRaceRounds, allRaces, oneRace, oneRaceRound} from "../controllers/races/races.controller";
+const fs = require('fs');
 
 const router = express.Router();
 
@@ -38,6 +39,13 @@ router.get('/races/:id', oneRace);
 router.get('/racerounds', allRaceRounds);
 router.get('/racerounds/:id', oneRaceRound);
 
+router.get('/races/:id/images', function (req, res) {
+    const response = {
+        "flag" : "races/" + req.params.id + "/flag.png",
+        "circuit": "races/" + req.params.id + "/b.jpg"
+    };
 
+    res.send(response);
+});
 
 module.exports = router;
