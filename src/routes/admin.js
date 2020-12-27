@@ -11,19 +11,6 @@ const router = express.Router();
 //= ===============================
 router.get('/users', userController.allUsers);
 
-router.get('/circuits', allCircuits);
-router.get('/circuits/:id', oneCircuit);
-
-router.get('/offers', allOffers);
-router.get('/offers/:id', oneOffer);
-
-router.get('/offers/by_race/:raceId', offersByRace);
-router.get('/offers/by_race_round/:raceRoundId', offersByRaceRound);
-
-router.get('/races', allRaces);
-router.get('/races/:id', oneRace);
-router.get('/racerounds', allRaceRounds);
-router.get('/racerounds/:id', oneRaceRound);
 
 
 module.exports = router;
