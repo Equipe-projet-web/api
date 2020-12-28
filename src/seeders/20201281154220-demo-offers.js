@@ -17,7 +17,7 @@ module.exports = {
               booking_open_at: toMysqlDate("12/25/20"),
               price: 1430,
               ticketPrefix: "TP-",
-              openBookWebsite: "true"
+              openBookWebsite: true
           },
           {
               id: "2",
@@ -27,7 +27,7 @@ module.exports = {
               booking_open_at: toMysqlDate("12/25/20"),
               price: 633,
               ticketPrefix: "TP-",
-              openBookWebsite: "true"
+              openBookWebsite: true
           },
           {
               id: "3",
@@ -37,7 +37,7 @@ module.exports = {
               booking_open_at: toMysqlDate("12/25/20"),
               price: 288,
               ticketPrefix: "TP-",
-              openBookWebsite: "true"
+              openBookWebsite: true
           },
           {
               id: "4",
@@ -47,7 +47,7 @@ module.exports = {
               booking_open_at: toMysqlDate("12/25/20"),
               price: 1265,
               ticketPrefix: "TP-",
-              openBookWebsite: "true"
+              openBookWebsite: true
           },
           {
               id: "5",
@@ -57,7 +57,7 @@ module.exports = {
               booking_open_at: toMysqlDate("12/25/20"),
               price: 1100,
               ticketPrefix: "TP-",
-              openBookWebsite: "true"
+              openBookWebsite: true
           },
           {
               id: "6",
@@ -67,7 +67,7 @@ module.exports = {
               booking_open_at: toMysqlDate("12/25/20"),
               price: 3450,
               ticketPrefix: "TVIP-",
-              openBookWebsite: "true"
+              openBookWebsite: true
           },
           {
               id: "7",
@@ -77,7 +77,7 @@ module.exports = {
               booking_open_at: toMysqlDate("12/25/20"),
               price: 2850,
               ticketPrefix: "TVIP-",
-              openBookWebsite: "true"
+              openBookWebsite: true
           },
           {
               id: "8",
@@ -87,7 +87,7 @@ module.exports = {
               booking_open_at: toMysqlDate("12/25/20"),
               price: 1150,
               ticketPrefix: "TVIP-",
-              openBookWebsite: "true"
+              openBookWebsite: true
           },
           {
               id: "9",
@@ -97,7 +97,7 @@ module.exports = {
               booking_open_at: toMysqlDate("12/25/20"),
               price: 2600,
               ticketPrefix: "TVIP-",
-              openBookWebsite: "true"
+              openBookWebsite: true
           },
           {
               id: "10",
@@ -107,7 +107,7 @@ module.exports = {
               booking_open_at: toMysqlDate("12/25/20"),
               price: 2290,
               ticketPrefix: "TVIP-",
-              openBookWebsite: "true"
+              openBookWebsite: true
           },
           {
               id: "11",
@@ -117,7 +117,7 @@ module.exports = {
               booking_open_at: toMysqlDate("12/25/20"),
               price: 890,
               ticketPrefix: "TVIP-",
-              openBookWebsite: "true"
+              openBookWebsite: true
           },
           {
               id: "12",
@@ -127,7 +127,7 @@ module.exports = {
               booking_open_at: toMysqlDate("12/25/20"),
               price: 1290,
               ticketPrefix: "T-",
-              openBookWebsite: "true"
+              openBookWebsite: true
           },
           {
               id: "13",
@@ -137,7 +137,7 @@ module.exports = {
               booking_open_at: toMysqlDate("12/25/20"),
               price: 1090,
               ticketPrefix: "T-",
-              openBookWebsite: "true"
+              openBookWebsite: true
           },
           {
               id: "14",
@@ -147,7 +147,7 @@ module.exports = {
               booking_open_at: toMysqlDate("12/25/20"),
               price: 550,
               ticketPrefix: "T-",
-              openBookWebsite: "true"
+              openBookWebsite: true
           },
           {
               id: "15",
@@ -157,7 +157,7 @@ module.exports = {
               booking_open_at: toMysqlDate("12/25/20"),
               price: 250,
               ticketPrefix: "T-",
-              openBookWebsite: "true"
+              openBookWebsite: true
           },
           {
               id: "16",
@@ -167,7 +167,7 @@ module.exports = {
               booking_open_at: toMysqlDate("12/25/20"),
               price: 3450,
               ticketPrefix: "YACHTS-",
-              openBookWebsite: "true"
+              openBookWebsite: true
           },
           {
               id: "17",
@@ -177,7 +177,7 @@ module.exports = {
               booking_open_at: toMysqlDate("12/25/20"),
               price: 2550,
               ticketPrefix: "YACHTS-",
-              openBookWebsite: "true"
+              openBookWebsite: true
           },
           {
               id: "18",
@@ -187,7 +187,7 @@ module.exports = {
               booking_open_at: toMysqlDate("12/25/20"),
               price: 700,
               ticketPrefix: "YACHTS-",
-              openBookWebsite: "true"
+              openBookWebsite: true
           }
       ],
       {},
