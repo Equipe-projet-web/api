@@ -3,9 +3,12 @@ import validate from 'express-validation';
 
 import * as userController from '../controllers/user/user.controller';
 import * as userValidator from '../controllers/user/user.validator';
+import * as bookingValidator from '../controllers/booking/booking.validator';
+
 import {allCircuits, oneCircuit} from "../controllers/circuits/circuit.controller";
 import {allOffers, offersByRace, offersByRaceRound, oneOffer} from "../controllers/offers/offer.controller";
 import {allRaceRounds, allRaces, oneRace, oneRaceRound} from "../controllers/races/races.controller";
+import {allBooking, storeBooking} from "../controllers/booking/booking.controller";
 const fs = require('fs');
 
 const router = express.Router();
@@ -39,12 +42,18 @@ router.get('/races/:id', oneRace);
 router.get('/racerounds', allRaceRounds);
 router.get('/racerounds/:id', oneRaceRound);
 
+router.get('/bookings', allBooking);
+router.post(
+    '/bookings/store',
+    validate(bookingValidator.register),
+    storeBooking,
+);
+
 router.get('/races/:id/images', function (req, res) {
     const response = {
         "flag" : "races/" + req.params.id + "/flag.png",
         "circuit": "races/" + req.params.id + "/b.jpg"
     };
-
     res.send(response);
 });
 

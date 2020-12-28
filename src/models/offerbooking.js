@@ -1,10 +1,10 @@
 'use strict';
 const Offer = require('../models/offer');
-const BookingPeople = require('../models/bookingpeople');
+const Booking = require('../models/booking');
 
 
 module.exports = (sequelize, DataTypes) => {
-  const OfferBookingPeople = sequelize.define('OfferBookingPeople', {
+  const OfferBooking = sequelize.define('OfferBooking', {
     offerId: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -13,17 +13,21 @@ module.exports = (sequelize, DataTypes) => {
         key: "offerId"
       }
     },
-    bookingPeopleId: {
+    bookingId: {
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
-        model: BookingPeople,
-        key: "bookingPeopleId"
+        model: Booking,
+        key: "bookingId"
       }
+    },
+    count : {
+      type: DataTypes.INTEGER,
+      allowNull: false
     }
   }, {});
-  OfferBookingPeople.associate = function(models) {
+  OfferBooking.associate = function(models) {
     // associations can be defined here
   };
-  return OfferBookingPeople;
+  return OfferBooking;
 };

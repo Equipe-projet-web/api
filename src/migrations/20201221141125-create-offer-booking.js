@@ -1,7 +1,7 @@
 'use strict';
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('OfferBookingPeople', {
+    return queryInterface.createTable('OfferBooking', {
       id: {
         allowNull: false,
         autoIncrement: true,
@@ -11,8 +11,13 @@ module.exports = {
       offerId: {
         type: Sequelize.INTEGER
       },
-      bookingPeopleId: {
+      bookingId: {
         type: Sequelize.INTEGER
+      },
+      count: {
+        type: Sequelize.INTEGER,
+        defaultValue : 1,
+        allowNull: false
       },
       createdAt: {
         allowNull: false,
@@ -25,6 +30,6 @@ module.exports = {
     });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('OfferBookingPeople');
+    return queryInterface.dropTable('OfferBooking');
   }
 };

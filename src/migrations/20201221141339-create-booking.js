@@ -8,16 +8,34 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      offerId: {
-        type: Sequelize.INTEGER
+      firstName: {
+        allowNull: false,
+        type: Sequelize.STRING
       },
-      book_at: {
+      lastName: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      phone: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      city: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      address: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      bookAt: {
         type: Sequelize.DATE
       },
       email: {
+        allowNull: false,
         type: Sequelize.STRING
       },
-      reference_website: {
+      referenceWebsite: {
         type: Sequelize.STRING
       },
       createdAt: {
