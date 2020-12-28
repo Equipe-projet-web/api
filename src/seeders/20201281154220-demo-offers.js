@@ -57,7 +57,7 @@ module.exports = {
               booking_open_at: toMysqlDate("12/25/20"),
               price: 1100,
               ticketPrefix: "TP-",
-              openBookWebsite: true
+              openBookWebsite: false
           },
           {
               id: "6",
