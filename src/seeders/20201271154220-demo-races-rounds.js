@@ -7,7 +7,7 @@ function toMysqlDate(value){
 
 module.exports = {
   up: (queryInterface, Sequelize) => queryInterface.bulkInsert(
-      'RaceRound',
+      'RaceRounds',
       [
           {
               id: "1",

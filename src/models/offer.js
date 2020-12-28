@@ -2,7 +2,6 @@
 
 const Offer = require('../models/race');
 
-
 module.exports = (sequelize, DataTypes) => {
   const Offer = sequelize.define('Offer', {
     name: {type : DataTypes.STRING, allowNull: false},
@@ -10,7 +9,8 @@ module.exports = (sequelize, DataTypes) => {
     price: {type : DataTypes.FLOAT, allowNull: false},
     ticketPrefix: {type : DataTypes.STRING, allowNull: false},
     openBookWebsite: {type : DataTypes.BOOLEAN, allowNull: false, defaultValue: false},
-    category: {type : DataTypes.STRING, allowNull: true}
+    category: {type : DataTypes.STRING, allowNull: true},
+    raceId: {type: DataTypes.INTEGER, allowNull: false}
   }, {});
   Offer.associate = function(models) {
     // associations can be defined here

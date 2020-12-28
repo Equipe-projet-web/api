@@ -54,5 +54,6 @@ db.Race.hasMany(db.RaceRound, { foreignKey: 'raceId', sourceKey: 'id', as: 'Race
 db.RaceRound.hasOne(db.Race, {foreignKey: 'id', sourceKey: 'raceId', as: 'Race'});
 db.Offer.belongsToMany(db.RaceRound, { through: db.OfferRaceRound, as: 'RaceRounds'});
 db.RaceRound.belongsToMany(db.Offer, { through: db.OfferRaceRound, as: 'Offers'});
+db.Race.hasMany(db.Offer, { foreignKey: 'raceId', sourceKey: 'id', as: 'Offers'});
 
 module.exports = db;

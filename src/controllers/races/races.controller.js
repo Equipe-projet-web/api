@@ -21,7 +21,7 @@ export const oneRace = async (req, res) => {
     const race = await Race.findOne({
       where: { id: req.params.id },
       include: [
-        'RaceRounds', 'Circuit'
+        'RaceRounds', 'Circuit', 'Offers'
       ],
     });
     return successResponse(req, res, { race });
@@ -32,13 +32,9 @@ export const oneRace = async (req, res) => {
 
 export const allRaceRounds = async (req, res) => {
   try {
-    const page = req.params.page || 1;
-    const limit = 2;
     const raceRounds = await RaceRound.findAndCountAll({
       include: ['Race', 'Offers'],
       order: [['name', 'ASC']],
-      offset: (page - 1) * limit,
-      limit,
     });
     return successResponse(req, res, { raceRounds });
   } catch (error) {
