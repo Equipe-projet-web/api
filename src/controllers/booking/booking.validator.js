@@ -1,6 +1,6 @@
 const Joi = require('joi');
 
-export const register = {
+export const store = {
     body: {
         firstName: Joi.string().required(),
         lastName: Joi.string().required(),
@@ -10,5 +10,12 @@ export const register = {
         phone: Joi.string().required(),
         city: Joi.string().required(),
         address: Joi.string().required(),
+    },
+};
+
+export const offer = {
+    body: {
+        offerId: Joi.string().required(),
+        count: Joi.string().required(),
     },
 };

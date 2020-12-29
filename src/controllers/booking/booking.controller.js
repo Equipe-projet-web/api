@@ -1,4 +1,4 @@
-import {Booking} from '../../models';
+import {Booking, OfferBooking} from '../../models';
 import {successResponse, errorResponse, uniqueId} from '../../helpers';
 
 export const allBooking = async (req, res) => {
@@ -33,3 +33,22 @@ export const storeBooking = async (req, res) => {
   }
 };
 
+export const storeBookingOffer = async (req, res) => {
+  try {
+    const {
+      offerId, count
+    } = req.body;
+    console.log("Express", req.body);
+
+    const payload = {
+      bookingId : req.params.id,
+      offerId,
+      count: parseInt(count),
+    };
+
+    const offerBooking = await OfferBooking.create(payload);
+    return successResponse(req, res, {offerBooking});
+  } catch (error) {
+    return errorResponse(req, res, error.message);
+  }
+};
