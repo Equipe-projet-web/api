@@ -57,7 +57,7 @@ db.RaceRound.belongsToMany(db.Offer, { through: db.OfferRaceRound, as: 'Offers'}
 db.Race.hasMany(db.Offer, { foreignKey: 'raceId', sourceKey: 'id', as: 'Offers'});
 db.Offer.hasOne(db.Race, { foreignKey: 'id', sourceKey: 'raceId', as: 'Race'});
 db.Booking.hasMany(db.OfferBooking, {foreignKey: 'bookingId', sourceKey: 'id'})
-db.OfferBooking.hasOne(db.BookingPeople, {foreignKey: 'offerBookingId', sourceKey: 'id'})
+db.OfferBooking.hasMany(db.BookingPeople, {foreignKey: 'offerBookingId', sourceKey: 'id'})
 db.OfferBooking.hasOne(db.Offer, {foreignKey: 'id', sourceKey: 'offerId'})
 
 

@@ -66,7 +66,6 @@ export const storeBookingOffer = async (req, res) => {
     const {
       offerId, count
     } = req.body;
-    console.log("Express", req.body);
 
     const payload = {
       bookingId : req.params.id,
@@ -76,6 +75,41 @@ export const storeBookingOffer = async (req, res) => {
 
     const offerBooking = await OfferBooking.create(payload);
     return successResponse(req, res, {offerBooking});
+  } catch (error) {
+    return errorResponse(req, res, error.message);
+  }
+};
+
+export const invitation = async (req, res) => {
+  try {
+    const {
+      firstName, lastName, email
+    } = req.body;
+
+    const payload = {
+      firstName,
+      lastName,
+      email,
+      bookingId : req.params.bookingId,
+      offerBookingId: req.params.offerBookingId
+    };
+
+    const bookingPeople = await BookingPeople.create(payload);
+    return successResponse(req, res, {bookingPeople});
+  } catch (error) {
+    return errorResponse(req, res, error.message);
+  }
+};
+
+export const deleteBookingPeople = async (req, res) => {
+  try {
+    const bookingPeople = await BookingPeople.findOne({
+      where: {
+        id: req.params.id
+      }
+    });
+    await bookingPeople.destroy();
+    return successResponse(req, res);
   } catch (error) {
     return errorResponse(req, res, error.message);
   }

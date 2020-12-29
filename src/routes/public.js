@@ -8,7 +8,13 @@ import * as bookingValidator from '../controllers/booking/booking.validator';
 import {allCircuits, oneCircuit} from "../controllers/circuits/circuit.controller";
 import {allOffers, offersByRace, offersByRaceRound, oneOffer} from "../controllers/offers/offer.controller";
 import {allRaceRounds, allRaces, oneRace, oneRaceRound, randomRace} from "../controllers/races/races.controller";
-import {allBooking, oneBooking, storeBooking, storeBookingOffer} from "../controllers/booking/booking.controller";
+import {
+    allBooking, deleteBookingPeople,
+    invitation,
+    oneBooking,
+    storeBooking,
+    storeBookingOffer
+} from "../controllers/booking/booking.controller";
 const fs = require('fs');
 
 const router = express.Router();
@@ -45,6 +51,11 @@ router.get('/racerounds/:id', oneRaceRound);
 
 router.get('/bookings', allBooking);
 router.get('/bookings/:referenceWebsite', oneBooking);
+router.post(
+    '/bookings/:bookingId/offerbookings/:offerBookingId/invitation',
+    invitation
+);
+router.delete('/bookingpeople/:id/delete', deleteBookingPeople)
 router.post(
     '/bookings/store',
     validate(bookingValidator.store),
