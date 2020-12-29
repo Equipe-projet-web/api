@@ -15,6 +15,10 @@ module.exports = (sequelize, DataTypes) => {
         model: 'Booking',
         key: 'id'
       }
+    },
+    offerBookingId : {
+      type: DataTypes.INTEGER,
+      allowNull: true
     }
   }, {});
   BookingPeople.associate = function(models) {

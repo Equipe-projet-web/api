@@ -1,4 +1,4 @@
-import {Booking, OfferBooking, RaceRound} from '../../models';
+import {Booking, OfferBooking, BookingPeople, Offer, Race} from '../../models';
 import {successResponse, errorResponse, uniqueId} from '../../helpers';
 
 export const allBooking = async (req, res) => {
@@ -14,7 +14,22 @@ export const oneBooking = async (req, res) => {
   try {
     const booking = await Booking.findOne({
       where: { referenceWebsite: req.params.referenceWebsite },
-      include: []
+      include: [
+        {
+          model: OfferBooking,
+          include : [
+            {
+              model: BookingPeople
+            },
+            {
+              model: Offer,
+              include : [
+               'Race'
+              ]
+            }
+          ]
+        }
+      ]
     });
     return successResponse(req, res, { booking });
   } catch (error) {
