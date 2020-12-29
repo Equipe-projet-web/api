@@ -1,4 +1,4 @@
-import {Booking, OfferBooking} from '../../models';
+import {Booking, OfferBooking, RaceRound} from '../../models';
 import {successResponse, errorResponse, uniqueId} from '../../helpers';
 
 export const allBooking = async (req, res) => {
@@ -9,6 +9,19 @@ export const allBooking = async (req, res) => {
     return errorResponse(req, res, error.message);
   }
 };
+
+export const oneBooking = async (req, res) => {
+  try {
+    const booking = await Booking.findOne({
+      where: { referenceWebsite: req.params.referenceWebsite },
+      include: []
+    });
+    return successResponse(req, res, { booking });
+  } catch (error) {
+    return errorResponse(req, res, error.message);
+  }
+};
+
 
 export const storeBooking = async (req, res) => {
   try {
@@ -23,7 +36,7 @@ export const storeBooking = async (req, res) => {
       phone,
       address: address.toUpperCase(),
       city: city.toUpperCase(),
-      referenceWebsite: Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 15).toUpperCase()
+      referenceWebsite: referenceGenerator()
     };
 
     const booking = await Booking.create(payload);
@@ -52,3 +65,11 @@ export const storeBookingOffer = async (req, res) => {
     return errorResponse(req, res, error.message);
   }
 };
+
+
+function referenceGenerator() {
+  return Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 15).toUpperCase() + '-xxxx-F1-2021-xxxxx'.replace(/[xy]/g, function(c) {
+    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+    return v.toString(16);
+  }).toUpperCase();
+}

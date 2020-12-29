@@ -1,6 +1,6 @@
 import {Race, RaceRound} from '../../models';
 import { successResponse, errorResponse } from '../../helpers';
-
+import Sequelize from 'sequelize';
 
 export const allRaces = async (req, res) => {
   try {
@@ -8,9 +8,25 @@ export const allRaces = async (req, res) => {
       include: [
         'RaceRounds', 'Circuit'
       ],
-      order: [['name', 'ASC']],
+      order: [['startDate', 'ASC']],
     });
     return successResponse(req, res, { races });
+  } catch (error) {
+    return errorResponse(req, res, error.message);
+  }
+};
+
+export const randomRace = async (req, res) => {
+  try {
+    const race = await Race.findOne({
+      order: [
+        Sequelize.fn( 'RAND' ),
+      ],
+      include: [
+        'Circuit', 'Offers'
+      ],
+    });
+    return successResponse(req, res, { race });
   } catch (error) {
     return errorResponse(req, res, error.message);
   }

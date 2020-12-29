@@ -34,14 +34,6 @@ module.exports = {
               description: "Organisé sur le circuit international de Shanghai, le Grand Prix de Chine est unique en son genre."
           },
           {
-              id: "4",
-              name: "Grand Prix TBC",
-              circuitId: "4",
-              startDate: toMysqlDate("23/04/2021"),
-              endDate: toMysqlDate("25/04/2021"),
-              description: "Grand Prix pas encore déterminé."
-          },
-          {
               id: "5",
               name: "Grand Prix d'Espagne",
               circuitId: "5",

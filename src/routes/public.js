@@ -7,8 +7,8 @@ import * as bookingValidator from '../controllers/booking/booking.validator';
 
 import {allCircuits, oneCircuit} from "../controllers/circuits/circuit.controller";
 import {allOffers, offersByRace, offersByRaceRound, oneOffer} from "../controllers/offers/offer.controller";
-import {allRaceRounds, allRaces, oneRace, oneRaceRound} from "../controllers/races/races.controller";
-import {allBooking, storeBooking, storeBookingOffer} from "../controllers/booking/booking.controller";
+import {allRaceRounds, allRaces, oneRace, oneRaceRound, randomRace} from "../controllers/races/races.controller";
+import {allBooking, oneBooking, storeBooking, storeBookingOffer} from "../controllers/booking/booking.controller";
 const fs = require('fs');
 
 const router = express.Router();
@@ -38,11 +38,13 @@ router.get('/offers/by_race/:raceId', offersByRace);
 router.get('/offers/by_race_round/:raceRoundId', offersByRaceRound);
 
 router.get('/races', allRaces);
+router.get('/races/random', randomRace);
 router.get('/races/:id', oneRace);
 router.get('/racerounds', allRaceRounds);
 router.get('/racerounds/:id', oneRaceRound);
 
 router.get('/bookings', allBooking);
+router.get('/bookings/:referenceWebsite', oneBooking);
 router.post(
     '/bookings/store',
     validate(bookingValidator.store),
@@ -50,7 +52,6 @@ router.post(
 );
 router.post(
     '/bookings/:id/offers/store',
-    validate(bookingValidator.offer),
     storeBookingOffer,
 );
 
