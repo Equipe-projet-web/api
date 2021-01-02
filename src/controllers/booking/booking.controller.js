@@ -157,6 +157,20 @@ export const deleteBookingPeople = async (req, res) => {
   }
 };
 
+export const deleteBookingOffer = async (req, res) => {
+  try {
+    const bookingOffer = await OfferBooking.findOne({
+      where: {
+        id: req.params.id
+      }
+    });
+    await bookingOffer.destroy();
+    return successResponse(req, res);
+  } catch (error) {
+    return errorResponse(req, res, error.message);
+  }
+};
+
 
 function referenceGenerator() {
   return Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 15).toUpperCase() + '-xxxx-F1-2021-xxxxx'.replace(/[xy]/g, function(c) {
