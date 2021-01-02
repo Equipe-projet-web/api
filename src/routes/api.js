@@ -6,9 +6,6 @@ import * as userValidator from '../controllers/user/user.validator';
 
 const router = express.Router();
 
-//= ===============================
-// API routes
-//= ===============================
 router.get('/me', userController.profile);
 router.post(
   '/changePassword',

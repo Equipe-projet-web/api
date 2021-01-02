@@ -49,7 +49,6 @@ router.get('/races/:id', oneRace);
 router.get('/racerounds', allRaceRounds);
 router.get('/racerounds/:id', oneRaceRound);
 
-router.get('/bookings', allBooking);
 router.get('/bookings/:referenceWebsite', oneBooking);
 router.post(
     '/bookings/:bookingId/offerbookings/:offerBookingId/invitation',

@@ -3,8 +3,50 @@ import {successResponse, errorResponse, uniqueId} from '../../helpers';
 
 export const allBooking = async (req, res) => {
   try {
-    const circuits = await Booking.findAndCountAll();
-    return successResponse(req, res, { circuits });
+    const bookings = await Booking.findAll({
+      include : [
+        {
+          model: OfferBooking,
+          include : [
+            {
+              model: BookingPeople
+            },
+            {
+              model: Offer,
+              include : [
+                'Race'
+              ]
+            }
+          ]
+        }
+      ]
+    });
+    return successResponse(req, res, { bookings });
+  } catch (error) {
+    return errorResponse(req, res, error.message);
+  }
+};
+
+export const allBookingOffers = async (req, res) => {
+  try {
+    const bookingOffers = await OfferBooking.findAll({
+      include : [
+        {
+          model: BookingPeople
+        },
+        {
+          model: Booking
+        },
+        {
+          model: Offer,
+          include : [
+            'Race'
+          ]
+        }
+      ],
+      order: [['createdAt', 'DESC']],
+    });
+    return successResponse(req, res, { bookingOffers });
   } catch (error) {
     return errorResponse(req, res, error.message);
   }

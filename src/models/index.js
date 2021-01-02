@@ -59,6 +59,7 @@ db.Offer.hasOne(db.Race, { foreignKey: 'id', sourceKey: 'raceId', as: 'Race'});
 db.Booking.hasMany(db.OfferBooking, {foreignKey: 'bookingId', sourceKey: 'id'})
 db.OfferBooking.hasMany(db.BookingPeople, {foreignKey: 'offerBookingId', sourceKey: 'id'})
 db.OfferBooking.hasOne(db.Offer, {foreignKey: 'id', sourceKey: 'offerId'})
+db.OfferBooking.hasOne(db.Booking, {foreignKey: 'id', sourceKey: 'bookingId'})
 
 
 module.exports = db;
