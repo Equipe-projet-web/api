@@ -2,18 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77bfedaa-1695-4527-a717-625972de49c4" name="Default Changelist" comment="Minor change &amp; test git bug">
-      <change afterPath="$PROJECT_DIR$/src/seeders/20201271154220-demo-races-rounds.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projet/src/app/_models/race-round.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet/src/app/_helpers/auth.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/app/_helpers/auth.guard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet/src/app/_helpers/error.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/app/_helpers/error.interceptor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet/src/app/_helpers/jwt.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/app/_helpers/jwt.interceptor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet/src/app/race-item/race-item.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/app/race-item/race-item.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet/src/app/race-item/race-item.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/app/race-item/race-item.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet/src/app/reservation/reservation.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/app/reservation/reservation.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet/src/app/reservations/reservations.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/app/reservations/reservations.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/migrations/20201221140738-create-race-rounds.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/migrations/20201221140738-create-race-rounds.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/raceround.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/raceround.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/migrations/20190522113242-UserVerified.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seeders/20201281154220-demo-offers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/seeders/20201281154220-demo-offers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -27,7 +39,7 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Projet" />
   </component>
   <component name="ProjectId" id="1lxwzkLNdzUkmhmDbdaNPWpvmhY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,20 +50,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/seeders" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projet/src/app/_models" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="C:\Users\Eliott BAYLOT\Documents\formula-1\Projet\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\api\src\seeders" />
-      <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\Projet\src\app\race-item" />
-      <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\api\assets\races" />
-      <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\api" />
+      <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\Projet\src\app\_models" />
+      <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\Projet\src\app\footer" />
       <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\api\src\controllers" />
+      <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\api\src\migrations" />
+      <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\api\src\models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\Projet\src\assets\fonts" />
       <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\api\assets\races\4" />
       <recent name="C:\Users\Eliott BAYLOT\Documents\formula-1\api" />
     </key>
@@ -66,7 +79,9 @@
       <updated>1608552314419</updated>
       <workItem from="1608552315483" duration="5675000" />
       <workItem from="1609095149985" duration="57000" />
-      <workItem from="1609095241275" duration="10010000" />
+      <workItem from="1609095241275" duration="26698000" />
+      <workItem from="1609168077094" duration="38366000" />
+      <workItem from="1609604667189" duration="31022000" />
     </task>
     <task id="LOCAL-00001" summary="Add express Js boilerplate with Sequelize">
       <created>1608552563252</created>
@@ -187,7 +202,63 @@
       <option name="project" value="LOCAL" />
       <updated>1609107912550</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add raceround &amp; update migration">
+      <created>1609109125553</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1609109125553</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add auth">
+      <created>1609620037524</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1609620037524</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add reservations pannel">
+      <created>1609624418067</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1609624418067</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Add delete tickets">
+      <created>1609626983960</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1609626983960</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add from to">
+      <created>1609632528888</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1609632528888</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add notification">
+      <created>1609667653153</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1609667653153</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Bug fix">
+      <created>1609669905041</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1609669905041</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Update database démo &amp; add newletters">
+      <created>1609674158978</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1609674158978</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,17 +281,25 @@
     <MESSAGE value="Update logic with params" />
     <MESSAGE value="Minor change &amp; test git bug" />
     <MESSAGE value="Fix bug with dates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix bug with dates" />
+    <MESSAGE value="Add raceround &amp; update migration" />
+    <MESSAGE value="Add auth" />
+    <MESSAGE value="Add reservations pannel" />
+    <MESSAGE value="Add delete tickets" />
+    <MESSAGE value="Add from to" />
+    <MESSAGE value="Add notification" />
+    <MESSAGE value="Bug fix" />
+    <MESSAGE value="Update database démo &amp; add newletters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update database démo &amp; add newletters" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608552932632">
+    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609701834238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608552932632" />
-    <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1609107911441">
+    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609701834238" />
+    <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1609674158130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609107911441" />
+    <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609674158130" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1609098419709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -229,33 +308,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608563012081" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1608564598286">
+    <state x="184" y="86" key="MergeDialog" timestamp="1609633437490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1608564598286" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1609107914323">
+    <state x="184" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609633437490" />
+    <state x="598" y="281" key="MultipleFileMergeDialog" timestamp="1609633441310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609107914323" />
+    <state x="598" y="281" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609633441310" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1609616786163">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1609616786163" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1609674160312">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609674160312" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608552667442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608552667442" />
-    <state x="667" y="253" width="585" height="592" key="find.popup" timestamp="1609099849688">
+    <state x="667" y="253" width="601" height="592" key="find.popup" timestamp="1609702521204">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609099849688" />
+    <state x="667" y="253" width="601" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609702521204" />
     <state x="626" y="391" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1609099083262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="626" y="391" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609099083262" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1609096613875">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1609148853190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609096613875" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608565404434">
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609148853190" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609615268975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608565404434" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609615268975" />
   </component>
 </project>
