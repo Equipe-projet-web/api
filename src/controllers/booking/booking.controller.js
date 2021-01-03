@@ -159,12 +159,19 @@ export const deleteBookingPeople = async (req, res) => {
 
 export const deleteBookingOffer = async (req, res) => {
   try {
-    const bookingOffer = await OfferBooking.findOne({
+    const bookingPeople = await BookingPeople.destroy({
+      where: {
+        offerBookingId: req.params.id
+      },
+      force: true
+    });
+
+    const bookingOffer = await OfferBooking.destroy({
       where: {
         id: req.params.id
-      }
+      },
+      force: true
     });
-    await bookingOffer.destroy();
     return successResponse(req, res);
   } catch (error) {
     return errorResponse(req, res, error.message);
