@@ -6,7 +6,7 @@ export const allRaces = async (req, res) => {
   try {
     const races = await Race.findAndCountAll({
       include: [
-        'RaceRounds', 'Circuit'
+        'RaceRounds', 'Circuit', 'Offers'
       ],
       order: [['startDate', 'ASC']],
     });
