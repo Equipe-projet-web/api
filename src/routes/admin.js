@@ -17,7 +17,7 @@ const router = express.Router();
 router.get('/users', userController.allUsers);
 router.get('/bookings', allBooking);
 router.get('/bookings/offers', allBookingOffers);
-router.delete('/bookings/offers/:id/delete', deleteBookingOffer)
+router.delete('/bookings/offers/:id/delete', deleteBookingOffer);
 router.get('/notifications', allNotifications);
 
 
