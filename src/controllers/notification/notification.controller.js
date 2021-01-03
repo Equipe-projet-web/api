@@ -5,6 +5,7 @@ export const allNotifications = async (req, res) => {
   try {
     const notifications = await Notification.findAll({
       order: [['createdAt', 'DESC']],
+      limit : 20
     });
     return successResponse(req, res, { notifications });
   } catch (error) {

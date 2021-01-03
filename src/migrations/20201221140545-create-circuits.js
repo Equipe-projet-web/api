@@ -18,18 +18,21 @@ module.exports = {
         type: Sequelize.FLOAT
       },
       laps: {
-          type: Sequelize.INTEGER
+          type: Sequelize.INTEGER,
+          allowNull: true
       },
       description: {
         type: Sequelize.TEXT
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue : Date.now()
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue : Date.now()
       }
     });
   },

@@ -10,8 +10,8 @@ module.exports = {
       'Offers',
       [
           {
-              id: "1",
-              raceId: "6",
+              id: 1,
+              raceId: 6,
               name: "Tribune B - Gold Package - (jeu-sam-dim)",
               category: "TRIBUNES PREMIUM ",
               booking_open_at: toMysqlDate("12/25/20"),
@@ -20,8 +20,8 @@ module.exports = {
               openBookWebsite: true
           },
           {
-              id: "2",
-              raceId: "6",
+              id: 2,
+              raceId: 6,
               name: "Tribune K - Sections 1/2 - (dimanche)",
               category: "TRIBUNES PREMIUM ",
               booking_open_at: toMysqlDate("12/25/20"),
@@ -30,8 +30,8 @@ module.exports = {
               openBookWebsite: true
           },
           {
-              id: "3",
-              raceId: "6",
+              id: 3,
+              raceId: 6,
               name: "Tribune K - Sections 1/2 - (samedi)",
               category: "TRIBUNES PREMIUM ",
               booking_open_at: toMysqlDate("12/25/20"),
@@ -40,8 +40,8 @@ module.exports = {
               openBookWebsite: true
           },
           {
-              id: "4",
-              raceId: "6",
+              id: 4,
+              raceId: 6,
               name: "Tribune K - Gold Package - (jeu-sam-dim)",
               category: "TRIBUNES PREMIUM ",
               booking_open_at: toMysqlDate("12/25/20"),
@@ -50,8 +50,8 @@ module.exports = {
               openBookWebsite: true
           },
           {
-              id: "5",
-              raceId: "6",
+              id: 5,
+              raceId: 6,
               name: "Tribune K - Silver Package - (jeu-sam-dim)",
               category: "TRIBUNES PREMIUM ",
               booking_open_at: toMysqlDate("12/25/20"),
@@ -60,8 +60,8 @@ module.exports = {
               openBookWebsite: false
           },
           {
-              id: "6",
-              raceId: "6",
+              id: 6,
+              raceId: 6,
               name: "Terrasse Elite Rooftop - (sam-dim)",
               category: "TERRASSES VIP",
               booking_open_at: toMysqlDate("12/25/20"),
@@ -70,8 +70,8 @@ module.exports = {
               openBookWebsite: true
           },
           {
-              id: "7",
-              raceId: "6",
+              id: 7,
+              raceId: 6,
               name: "Terrasse Elite Rooftop - (dimanche)",
               category: "TERRASSES VIP",
               booking_open_at: toMysqlDate("12/25/20"),
@@ -80,8 +80,8 @@ module.exports = {
               openBookWebsite: true
           },
           {
-              id: "8",
-              raceId: "6",
+              id: 8,
+              raceId: 6,
               name: "Terrasse Elite Rooftop -  (samedi)",
               category: "TERRASSES VIP",
               booking_open_at: toMysqlDate("12/25/20"),
@@ -90,8 +90,8 @@ module.exports = {
               openBookWebsite: true
           },
           {
-              id: "9",
-              raceId: "6",
+              id: 9,
+              raceId: 6,
               name: "Terrasse VIP Platinium -  (sam,dim)",
               category: "TERRASSES VIP",
               booking_open_at: toMysqlDate("12/25/20"),
@@ -100,8 +100,8 @@ module.exports = {
               openBookWebsite: true
           },
           {
-              id: "10",
-              raceId: "6",
+              id: 10,
+              raceId: 6,
               name: "Terrasse VIP Platinium -  (dimanche)",
               category: "TERRASSES VIP",
               booking_open_at: toMysqlDate("12/25/20"),
@@ -110,8 +110,8 @@ module.exports = {
               openBookWebsite: true
           },
           {
-              id: "11",
-              raceId: "6",
+              id: 11,
+              raceId: 6,
               name: "Terrasse VIP Platinium -  (samedi)",
               category: "TERRASSES VIP",
               booking_open_at: toMysqlDate("12/25/20"),
@@ -120,8 +120,8 @@ module.exports = {
               openBookWebsite: true
           },
           {
-              id: "12",
-              raceId: "6",
+              id: 12,
+              raceId: 6,
               name: "Terrasse Bronze -  (sam-dim)",
               category: "TERRASSES",
               booking_open_at: toMysqlDate("12/25/20"),
@@ -130,8 +130,8 @@ module.exports = {
               openBookWebsite: true
           },
           {
-              id: "13",
-              raceId: "6",
+              id: 13,
+              raceId: 6,
               name: "Terrasse Bronze -  (dimanche)",
               category: "TERRASSES",
               booking_open_at: toMysqlDate("12/25/20"),
@@ -140,8 +140,8 @@ module.exports = {
               openBookWebsite: true
           },
           {
-              id: "14",
-              raceId: "6",
+              id: 14,
+              raceId: 6,
               name: "Terrasse Bronze -  (samedi)",
               category: "TERRASSES",
               booking_open_at: toMysqlDate("12/25/20"),
@@ -150,8 +150,8 @@ module.exports = {
               openBookWebsite: true
           },
           {
-              id: "15",
-              raceId: "6",
+              id: 15,
+              raceId: 6,
               name: "Terrasse Panoramique -  (jeudi)",
               category: "TERRASSES",
               booking_open_at: toMysqlDate("12/25/20"),
@@ -160,8 +160,8 @@ module.exports = {
               openBookWebsite: true
           },
           {
-              id: "16",
-              raceId: "6",
+              id: 16,
+              raceId: 6,
               name: "Yacht Package VIP -  (sam-dim)",
               category: "PACKAGES YACHTS",
               booking_open_at: toMysqlDate("12/25/20"),
@@ -170,8 +170,8 @@ module.exports = {
               openBookWebsite: true
           },
           {
-              id: "17",
-              raceId: "6",
+              id: 17,
+              raceId: 6,
               name: "Yacht Package VIP -  (dimanche)",
               category: "PACKAGES YACHTS",
               booking_open_at: toMysqlDate("12/25/20"),
@@ -180,8 +180,8 @@ module.exports = {
               openBookWebsite: true
           },
           {
-              id: "18",
-              raceId: "6",
+              id: 18,
+              raceId: 6,
               name: "Yacht Package VIP -  (jeudi)",
               category: "PACKAGES YACHTS",
               booking_open_at: toMysqlDate("12/25/20"),

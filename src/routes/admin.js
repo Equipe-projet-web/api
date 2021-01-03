@@ -7,6 +7,7 @@ import {
     deleteBookingOffer,
     deleteBookingPeople
 } from "../controllers/booking/booking.controller";
+import {allNotifications} from "../controllers/notification/notification.controller";
 
 const router = express.Router();
 
@@ -17,7 +18,7 @@ router.get('/users', userController.allUsers);
 router.get('/bookings', allBooking);
 router.get('/bookings/offers', allBookingOffers);
 router.delete('/bookings/offers/:id/delete', deleteBookingOffer)
-router.get('/notifications', allRaceRounds);
+router.get('/notifications', allNotifications);
 
 
 
