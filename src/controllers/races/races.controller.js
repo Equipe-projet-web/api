@@ -20,7 +20,7 @@ export const randomRace = async (req, res) => {
   try {
     const race = await Race.findOne({
       order: [
-        Sequelize.fn( 'RAND' ),
+        [ Sequelize.fn('RANDOM') ]
       ],
       include: [
         'Circuit', 'Offers'

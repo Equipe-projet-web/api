@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77bfedaa-1695-4527-a717-625972de49c4" name="Default Changelist" comment="Minor change &amp; test git bug">
-      <change afterPath="$PROJECT_DIR$/../Projet/src/app/_models/race-round.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projet/src/app/_helpers/auth.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/app/_helpers/auth.guard.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projet/src/app/_helpers/error.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/app/_helpers/error.interceptor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projet/src/app/_helpers/jwt.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/app/_helpers/jwt.interceptor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projet/src/app/race-item/race-item.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/app/race-item/race-item.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projet/src/app/race-item/race-item.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/app/race-item/race-item.component.ts" afterDir="false" />
+    <list default="true" id="77bfedaa-1695-4527-a717-625972de49c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Projet/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet/src/app/panier/panier.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/app/panier/panier.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet/src/app/panier/panier.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/app/panier/panier.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Projet/src/app/reservation/reservation.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/app/reservation/reservation.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Projet/src/app/reservations/reservations.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/app/reservations/reservations.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/migrations/20190522113242-UserVerified.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seeders/20201281154220-demo-offers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/seeders/20201281154220-demo-offers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/races/races.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/races/races.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seeders/20190521093300-AdminUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/seeders/20190521093300-AdminUsers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +77,7 @@
       <workItem from="1609095149985" duration="57000" />
       <workItem from="1609095241275" duration="26698000" />
       <workItem from="1609168077094" duration="38366000" />
-      <workItem from="1609604667189" duration="31022000" />
+      <workItem from="1609604667189" duration="33098000" />
     </task>
     <task id="LOCAL-00001" summary="Add express Js boilerplate with Sequelize">
       <created>1608552563252</created>
@@ -258,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609674158978</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add new reservation &amp; bug fix">
+      <created>1609702807985</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1609702807985</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,17 +292,18 @@
     <MESSAGE value="Add notification" />
     <MESSAGE value="Bug fix" />
     <MESSAGE value="Update database démo &amp; add newletters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update database démo &amp; add newletters" />
+    <MESSAGE value="Add new reservation &amp; bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new reservation &amp; bug fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609701834238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609701834238" />
-    <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1609674158130">
+    <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1609702807140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609674158130" />
+    <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609702807140" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1609098419709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -320,18 +324,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1609616786163" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1609674160312">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1609702809001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609674160312" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609702809001" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608552667442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608552667442" />
-    <state x="667" y="253" width="601" height="592" key="find.popup" timestamp="1609702521204">
+    <state x="667" y="253" width="601" height="592" key="find.popup" timestamp="1609704693434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="601" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609702521204" />
+    <state x="667" y="253" width="601" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609704693434" />
     <state x="626" y="391" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1609099083262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
